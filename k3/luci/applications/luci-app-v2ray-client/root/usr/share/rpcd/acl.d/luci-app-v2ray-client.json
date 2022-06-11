@@ -1,0 +1,15 @@
+{
+  "luci-app-acme": {
+    "description": "Grant UCI access for v2ray-client",
+    "read": {
+      "file": {
+        "/usr/sbin/nginx": [ "read" ],
+        "/usr/sbin/uhttpd": [ "read" ]
+      },
+      "uci": [ "v2ray-client" ]
+    },
+    "write": {
+      "uci": [ "v2ray-client" ]
+    }
+  }
+}

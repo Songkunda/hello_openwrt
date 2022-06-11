@@ -12,6 +12,8 @@ LUCI_PKGARCH:=all
 #依赖
 LUCI_DEPENDS:=+v2ray-core
 
+
+
 # 设置config file 文件目录
 define Package/$(PKG_NAME)/conffiles
 /etc/config/v2ray
@@ -23,3 +25,5 @@ include $(TOPDIR)/feeds/luci/luci.mk
 
 # 下面一行是 Luci 界面专用调用标识，必需，如果缺失会导致不会被加入 OpenWrt 的编译菜单中。
 # call BuildPackage - OpenWrt buildroot signature
+
+# 版权所有 (C) 2016 Kunda Song <574779754@qq.com>
