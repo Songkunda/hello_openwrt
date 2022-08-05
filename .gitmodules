@@ -1,0 +1,6 @@
+[submodule "k3/luci/applications/luci-app-k3screenctrl"]
+	path = k3/luci/applications/luci-app-k3screenctrl
+	url = git@github.com:Hill-98/luci-app-k3screenctrl.git
+[submodule "k3/luci/applications/openwrt-k3screenctrl"]
+	path = k3/luci/applications/openwrt-k3screenctrl
+	url = git@github.com:Hill-98/openwrt-k3screenctrl.git
